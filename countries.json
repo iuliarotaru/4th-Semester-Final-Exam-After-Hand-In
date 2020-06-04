@@ -1,0 +1,110 @@
+{
+  "countries": [
+    {
+      "name": "Denmark",
+      "banks": [
+        {
+          "name": "Alm. Brand bank",
+          "logo": "alm-brand-bank.png"
+        },
+        {
+          "name": "Andelskassen Fælleskassen",
+          "logo": "faelleskassen.png"
+        },
+        {
+          "name": "Arbejdernes Landsbank",
+          "logo": "al-bank.png"
+        },
+        {
+          "name": "Basisbank A/S",
+          "logo": "basisbank.png"
+        },
+        {
+          "name": "Coop Bank A/S",
+          "logo": "dk-coop.png"
+        },
+        {
+          "name": "Danske Andelskassers Bank A/S",
+          "logo": "dk-andelskassen.png"
+        },
+        {
+          "name": "Danske Bank A/S",
+          "logo": "dk-danskebank.png"
+        },
+        {
+          "name": "Nordea",
+          "logo": "dk-nordea.png"
+        }
+      ]
+    },
+    {
+      "name": "Norway",
+      "banks": [
+        {
+          "name": "Nordea",
+          "logo": "dk-nordea.png"
+        },
+        {
+          "name": "Storebrand Bank",
+          "logo": "B186.png"
+        },
+        {
+          "name": "SpareBank 1",
+          "logo": "B159.png"
+        },
+        {
+          "name": "Swedbank",
+          "logo": "B190.png"
+        }
+      ]
+    },
+    {
+      "name": "Sweden",
+      "banks": [
+        {
+          "name": "Ikano Bank",
+          "logo": "B223.png"
+        },
+        {
+          "name": "Nordea",
+          "logo": "dk-nordea.png"
+        },
+
+        {
+          "name": "Skandinaviska Enskilda Banken",
+          "logo": "B230.png"
+        },
+        {
+          "name": "Swedbank",
+          "logo": "B190.png"
+        }
+      ]
+    },
+    {
+      "name": "Finland",
+      "banks": [
+        {
+          "name": "Evli Bank",
+          "logo": "B324.png"
+        },
+        {
+          "name": "Pohjola Bank",
+          "logo": "B328.png"
+        },
+
+        {
+          "name": "Tapiola Bank",
+          "logo": "B332.png"
+        },
+        {
+          "name": "Danske Bank",
+          "logo": "dk-danskebank.png"
+        },
+        {
+          "name": "OP-Kotipankki",
+          "logo": "b327.png"
+        }
+      ]
+    }
+  ]
+}

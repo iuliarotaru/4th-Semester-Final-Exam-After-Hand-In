@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+}
+
+/* --- Login/Register Page Social Buttons */
+#facebook-button {
+  color: #ffffff;
+  background-color: #3b5998;
+  border-radius: 3.5em;
+  height: 3.5em;
+}
+
+#google-button {
+  color: #707070;
+  background-color: #ffffff;
+  border-radius: 3.5em;
+  border: 1px solid #979797;
+  height: 3.5em;
+}
+
+#email-button {
+  background: rgb(197, 43, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(197, 43, 105, 1) 0%,
+    rgba(130, 57, 113, 1) 100%
+  );
+  color: white;
+  border-radius: 3.5em;
+  height: 3.5em;
+}
+
+/* --- Login/Register Page Header Text */
+#header-text {
+  color: #523754;
+  font-family: 'Lato Black', sans-serif;
+  font-size: 1.4em;
+}
+
+/* --- Login/Register Page Authentication Form */
+#forgot-password a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #f4f4f4;
+}
+
+/* --- Login/Register Page Modal */
+#register-modal-dialog {
+  padding: 0;
+  margin: 0;
+}
+
+#register-modal-content {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+}
+
+#termsModalText {
+  color: black;
+}
+
+#register-modal-header-text {
+  color: #523754;
+  font-family: 'Lato Black', sans-serif;
+  font-size: 1.4em;
+}
+
+.register-modal-paragraph {
+  color: gray;
+  font-size: 0.9em;
+}
+
+#register-modal-paragraph-container {
+  padding-bottom: 7em;
+}
+
+#register-continue-button {
+  border-radius: 3.5em;
+  height: 3.5em;
+  background: rgb(197, 43, 105);
+  background: linear-gradient(
+    90deg,
+    rgba(197, 43, 105, 1) 0%,
+    rgba(130, 57, 113, 1) 100%
+  );
+  color: white;
+}
+
+#register-continue-button-wrapper {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 29%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 29%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 29%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+  padding-top: 2.3em;
+}
+
+/* --- Login/Register Page 'OR' LINE SEPARATOR */
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  border-top: 1px solid #ffffff;
+}
+
+.strike > span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.strike > span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.undo-icon {
+  position: absolute;
+  color: #523754;
+}
+
+.authentication-label {
+  font-size: 0.8em;
+  color: #b4b4b4;
+}
+
+#termsModalText {
+  font-size: 0.75em;
+}
+
+#password-requierements {
+  color: #b4b4b4;
+  font-size: 13px;
+}
+
+input[type='text']:focus {
+  outline: 2px solid #793b72;
+}
+
+input[type='password']:focus {
+  outline: 2px solid #793b72;
+}
+
+.label-focus {
+  color: rebeccapurple;
+}
+
+.google-icon {
+  width: 1.4em;
+  height: auto;
+}

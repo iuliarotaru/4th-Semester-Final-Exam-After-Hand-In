@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #523754;
+}
+
+.undo-icon {
+  position: absolute;
+  color: #523754;
+}
+
+#header-title {
+  color: #523754;
+  font-family: "Lato Black", sans-serif;
+  font-size: 1.4em;
+}
+
+#header-text {
+  color: #523754;
+  font-family: "Lato", sans-serif;
+}
+
+.pagination-dot {
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 0.7em;
+  border: 0.07em solid #979797;
+  display: inline-block;
+  margin: 0.12em;
+}
+
+.pagination-dot-active {
+  background: #d82666;
+  border-color: #d82666;
+}

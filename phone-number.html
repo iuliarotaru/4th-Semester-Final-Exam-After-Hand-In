@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MakeImpact | Account Setup</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/193451974c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/phone-number.css" />
+  </head>
+
+  <body class="p-4">
+    <div class="row">
+      <div class="col-6">
+        <a href="country.html"><img src="images/arrow-back.svg" /></a>
+      </div>
+      <div class="col-6">
+        <a
+          href="invested-before.html"
+          class="float-right"
+          id="phone-number-skip"
+          >Skip</a
+        >
+      </div>
+    </div>
+
+    <h6 id="header-title" class="text-left mt-4">Account Setup</h6>
+    <h6 id="header-text" class="text-left pt-2">
+      Add your phone number for a better experience
+    </h6>
+    <div class="text-center">
+      <img
+        src="images/phone-number-illustration.svg"
+        class="img-fluid w-75 mt-3"
+      />
+    </div>
+
+    <form class="mt-4" id="phone-number-form">
+      <label for="phone-number" class="form-text">Phone</label>
+      <div class="row no-gutters">
+        <div class="col-3 pr-1">
+          <select name="prefix" id="prefix-select" class="form-control">
+            <option value="+45">+45</option>
+            <option value="+47">+47</option>
+            <option value="+46">+46</option>
+            <option value="+358">+358</option>
+          </select>
+        </div>
+        <div class="col-9">
+          <div class="form-group">
+            <input
+              type="tel"
+              class="form-control"
+              name="phone-number"
+              id="phone-number"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="fixed-bottom pr-4 pl-4">
+        <button
+          class="btn btn-block next-button-disabled"
+          id="next-button"
+          type="submit"
+        >
+          Continue
+        </button>
+        <div class="text-center mt-2">
+          <div class="pagination-dot"></div>
+          <div class="pagination-dot"></div>
+          <div class="pagination-dot"></div>
+          <div class="pagination-dot pagination-dot-active"></div>
+          <div class="pagination-dot"></div>
+        </div>
+      </div>
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/phone-number.js"></script>
+  </body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MakeImpact | Sign up</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/193451974c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css/authentication.css" />
+  </head>
+
+  <body class="p-4">
+    <a href="sdg.html"><img src="images/arrow-back.svg" /></a>
+    <h6 id="header-text" class="text-left mt-4">Sign up</h6>
+    <button
+      class="btn btn-block mt-5"
+      id="facebook-button"
+      data-toggle="modal"
+      data-target="#termsModal"
+      data-register="facebook"
+    >
+      <i class="fab fa-facebook-f mr-2"></i>Register with Facebook
+    </button>
+    <button
+      class="btn btn-block mt-4"
+      id="google-button"
+      data-toggle="modal"
+      data-target="#termsModal"
+      data-register="google"
+    >
+      <img src="images/google-favicon-logo.png" class="google-icon" />
+      <span class="align-middle"> Register with Google</span>
+    </button>
+
+    <div class="strike mt-4">
+      <span>OR</span>
+    </div>
+
+    <form class="mt-4" id="registerForm">
+      <div class="form-group">
+        <label for="email" class="form-text authentication-label"
+          >Email address</label
+        >
+        <input
+          type="text"
+          class="form-control authentication-input"
+          name="email"
+          id="email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="password" class="form-text authentication-label"
+          >Set a password</label
+        >
+        <input
+          type="password"
+          class="form-control authentication-input"
+          name="password"
+          id="password"
+          minlength="6"
+          required
+        />
+        <p class="text-center mt-2" id="password-requierements">
+          Password must be at least 6 characters
+        </p>
+      </div>
+      <div class="form-group mt-5">
+        <button
+          class="btn btn-block"
+          class="form-control"
+          id="email-button"
+          data-toggle="modal"
+          data-target="#termsModal"
+          data-register="email"
+          disabled
+        >
+          Sign up with email
+        </button>
+      </div>
+    </form>
+
+    <div
+      class="modal fade"
+      id="termsModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="termsModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" id="register-modal-dialog" role="document">
+        <div class="modal-content" id="register-modal-content">
+          <div class="modal-body p-4">
+            <a href="index.html"><img src="images/arrow-back.svg" /></a>
+            <h6 id="register-modal-header-text" class="text-left pb-2 mt-4">
+              Please read and agree to our terms of use
+            </h6>
+            <div id="register-modal-paragraph-container">
+              <p class="register-modal-paragraph">
+                <b>MakeImpact IVS (“MakeImpact”)</b> is the Data Controller for
+                the processing of your personal data. <br />
+                Our contact information is:
+                <br />
+                MakeImpact IVS <br />
+                Øster Søgade 112, st. TH <br />
+                2100 København Ø <br />
+                CVR-no.: 39899639 <br />
+                E-mail address: hello@makeimpact.io <br />
+                Tel no: +45 27 57 20 32 <br />
+              </p>
+              <p class="register-modal-paragraph">
+                <b>Categories of personal data </b><br />
+                We collect and process the following types of personal data:
+              </p>
+              <p class="register-modal-paragraph">
+                <b>Users</b><br />
+                Signed up users of the web-based app: First Name, Last Name,
+                Age, Gender, E-mail, Country of Residence, Name of the user’s
+                Bank, Telephone number (optional), Invested before (Yes/No),
+                Favourite SDGs and Favourite companies the user follows <br />
+                <br />
+                Users that declare interest in a specific company: First Name,
+                Last Name, Age, Gender, E-mail, Country of Residence, Name of
+                the user’s Bank, Amount of interest to be invested, Chosen
+                company.
+              </p>
+              <p class="register-modal-paragraph">
+                <b>Partners and Other Individuals</b><br />
+                <br />
+                Business Partners and Individuals: First Name, Last Name,
+                E-mail, Phone number, Company, Position.<br />
+                <br />
+                Individuals receiving marketing and newsletters: First Name,
+                Last Name, and E-mail.
+              </p>
+              <p class="register-modal-paragraph">
+                <b>Where do we collect your personal data from?</b> <br />
+                We do not collect other personal data than the personal data you
+                have given us directly. <br />
+                <br />
+                The purposes and legal basis for the collection and processing
+                of the personal data <br />
+                Signed up users: We collect the above-mentioned information
+                about you to find potential investment ideas targeted your
+                profile as well as for statistical and research purposes based
+                on our legitimate interests in analyzing our potential customer
+                segment and user group of our website and teaser, cf. GDPR art.
+                6(1)(f), cf. the Danish Data Protection Act section 6 and our
+                further processing are necessary to fulfill our contract with
+                you, cf. GDPR art. 6(1)(b), cf. the Danish Data Protection Act
+                section 6. <br />
+                <br />
+                Users which declare interest in a specific company: Our
+                processing is necessary to fulfill our contract with you, cf.
+                GDPR art. 6(1)(b), cf. the Danish Data Protection Act section 6.
+                <br />
+                <br />
+                Business Partners and Individuals: Our processing is based on
+                our legitimate interests in ensuring necessary day-to-day
+                contact with our current and potential business partners. <br />
+                <br />
+                Individuals receiving marketing, newsletters: We send marketing
+                material, incl. newsletters and invitations to events, based on
+                your consent, cf. art. 6(1)(a), cf. the Danish Marketing
+                Practices Act section 10. <br />
+              </p>
+            </div>
+            <div
+              class="fixed-bottom pr-4 pl-4 pb-4"
+              id="register-continue-button-wrapper"
+            >
+              <button
+                class="btn btn-block"
+                type="submit"
+                id="register-continue-button"
+              >
+                I agree, let's go!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/register.js"></script>
+  </body>
+</html>
