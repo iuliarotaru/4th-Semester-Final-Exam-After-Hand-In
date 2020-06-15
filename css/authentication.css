@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #ffffff;
 }
 
@@ -36,7 +36,7 @@ body {
 /* --- Login/Register Page Header Text */
 #header-text {
   color: #523754;
-  font-family: 'Lato Black', sans-serif;
+  font-family: "Lato Black", sans-serif;
   font-size: 1.4em;
 }
 
@@ -46,7 +46,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #f4f4f4;
+  color: #b4b4b4;
 }
 
 /* --- Login/Register Page Modal */
@@ -70,7 +70,7 @@ a:active {
 
 #register-modal-header-text {
   color: #523754;
-  font-family: 'Lato Black', sans-serif;
+  font-family: "Lato Black", sans-serif;
   font-size: 1.4em;
 }
 
@@ -122,6 +122,8 @@ a:active {
   text-align: center;
   overflow: hidden;
   white-space: nowrap;
+  color: #b4b4b4;
+  font-family: "Lato Semibold";
 }
 
 .strike > span {
@@ -131,11 +133,11 @@ a:active {
 
 .strike > span:before,
 .strike > span:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   width: 9999px;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #b4b4b4;
 }
 
 .strike > span:before {
@@ -167,11 +169,11 @@ a:active {
   font-size: 13px;
 }
 
-input[type='text']:focus {
+input[type="text"]:focus {
   outline: 2px solid #793b72;
 }
 
-input[type='password']:focus {
+input[type="password"]:focus {
   outline: 2px solid #793b72;
 }
 

@@ -71,3 +71,9 @@ input[type="number"]:focus {
   background: #d82666;
   border-color: #d82666;
 }
+#name-age-body {
+  padding-bottom: 7.5em;
+}
+#name-age-bottom {
+  background: white;
+}
