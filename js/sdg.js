@@ -52,9 +52,9 @@ const checkSelectedSdgCount = selectedSdgArray => {
   if (selectedSdgArray.length >= 3) {
     $('#continue-button-sdg').show();
 
-    $('#container-sdg').addClass('margin-bottom-sdg');
+    $('#container-sdg').addClass('sdg-margin-bottom');
   } else {
     $('#continue-button-sdg').hide();
-    $('#container-sdg').removeClass('margin-bottom-sdg');
+    $('#container-sdg').removeClass('sdg-margin-bottom');
   }
 };

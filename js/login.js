@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $('input').focus(function() {
     const label = $(`label[for=${$(this).attr('id')}]`);
-    label.addClass('label-focus');
+    label.css('color', '#793b72');
   });
 
   $('input').focusout(function() {
     const label = $(`label[for=${$(this).attr('id')}]`);
-    label.removeClass('label-focus');
+    label.css('color', '#b4b4b4');
   });
 
   $('#login-form').submit(function(e) {

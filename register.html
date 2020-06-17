@@ -16,14 +16,14 @@
       src="https://kit.fontawesome.com/193451974c.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" type="text/css" href="css/authentication.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
 
   <body class="p-4">
-    <a href="sdg.html"><img src="images/arrow-back.svg" /></a>
-    <h6 id="header-text" class="text-left mt-4">Register</h6>
+    <a href="sdg.html"><img src="images/arrow-back.svg"/></a>
+    <h6 class="text-left mt-4 global-header-text">Register</h6>
     <button
-      class="btn btn-block mt-5"
+      class="btn btn-block mt-5 facebook-button"
       id="facebook-button"
       data-toggle="modal"
       data-target="#termsModal"
@@ -32,7 +32,7 @@
       <i class="fab fa-facebook-f mr-2"></i>Continue with Facebook
     </button>
     <button
-      class="btn btn-block mt-4"
+      class="btn btn-block mt-4 google-button"
       id="google-button"
       data-toggle="modal"
       data-target="#termsModal"
@@ -71,14 +71,13 @@
           minlength="6"
           required
         />
-        <p class="text-center mt-2" id="password-requierements">
+        <p class="text-center mt-2" id="password-requirements">
           Password must be at least 6 characters
         </p>
       </div>
       <div class="form-group mt-5">
         <button
-          class="btn btn-block"
-          class="form-control"
+          class="btn btn-block auth-button"
           id="email-button"
           data-toggle="modal"
           data-target="#termsModal"
@@ -101,7 +100,7 @@
       <div class="modal-dialog" id="register-modal-dialog" role="document">
         <div class="modal-content" id="register-modal-content">
           <div class="modal-body p-4">
-            <a href="index.html"><img src="images/arrow-back.svg" /></a>
+            <a href="index.html"><img src="images/arrow-back.svg"/></a>
             <h6 id="register-modal-header-text" class="text-left pb-2 mt-4">
               Please read and agree to our terms of use
             </h6>
@@ -180,7 +179,7 @@
               id="register-continue-button-wrapper"
             >
               <button
-                class="btn btn-block"
+                class="btn btn-block continue-button"
                 type="submit"
                 id="register-continue-button"
               >

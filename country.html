@@ -16,12 +16,12 @@
       src="https://kit.fontawesome.com/193451974c.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" type="text/css" href="css/country.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
 
-  <body class="p-4">
-    <a href="gender.html"><img src="images/arrow-back.svg" /></a>
-    <h6 id="header-title" class="text-left mt-4">Account Setup</h6>
+  <body class="p-4" id="country-body">
+    <a href="gender.html"><img src="images/arrow-back.svg"/></a>
+    <h6 class="text-left mt-4 global-header-text">Account Setup</h6>
     <h6 id="header-text" class="text-left pt-4">Where do you live?</h6>
     <select name="country" id="country-select" class="form-control mt-4">
       <option value="Denmark">Denmark</option>
@@ -40,7 +40,7 @@
     <div id="banks-container"></div>
     <div class="fixed-bottom pr-4 pl-4" id="country-bottom-container">
       <button
-        class="btn btn-block next-button-disabled"
+        class="btn btn-block continue-button-disabled"
         id="next-button-country"
         type="submit"
         disabled

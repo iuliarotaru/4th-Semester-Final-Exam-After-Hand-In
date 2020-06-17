@@ -15,12 +15,12 @@ $(document).ready(function() {
 
   $('input').focus(function() {
     const label = $(`label[for=${$(this).attr('id')}]`);
-    label.addClass('label-focus');
+    label.css('color', '#793b72');
   });
 
   $('input').focusout(function() {
     const label = $(`label[for=${$(this).attr('id')}]`);
-    label.removeClass('label-focus');
+    label.css('color', '#b4b4b4');
   });
 
   $('#registerForm').submit(function(e) {
@@ -59,7 +59,7 @@ const signUpWithEmail = event => {
 
   if (email && password) {
     const user = { email: email, password: password };
-    
+
     const settings = {
       async: true,
       crossDomain: true,

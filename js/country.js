@@ -36,8 +36,8 @@ $(document).ready(function() {
     const selectedBank = { name: bank, country: selectedCountry.name };
     localStorage.setItem('bank', JSON.stringify(selectedBank));
     $('#next-button-country').removeAttr('disabled');
-    $('#next-button-country').addClass('next-button-gradient');
-    $('#next-button-country').removeClass('next-button-disabled');
+    $('#next-button-country').addClass('continue-button');
+    $('#next-button-country').removeClass('continue-button-disabled');
   });
 
   $('#next-button-country').click(function() {
