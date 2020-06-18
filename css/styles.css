@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 /* -- Global Styles */
 body,
 html {
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .global-header-text {
   color: #523754;
-  font-family: 'Lato Black', sans-serif;
+  font-family: "Lato Black", sans-serif;
   font-size: 1.4em;
 }
 
@@ -32,19 +32,19 @@ html {
   height: 3.5em;
 }
 
-input[type='text']:focus {
+input[type="text"]:focus {
   outline: 2px solid #793b72;
 }
 
-input[type='number']:focus {
+input[type="number"]:focus {
   outline: 2px solid #793b72;
 }
 
-input[type='password']:focus {
+input[type="password"]:focus {
   outline: 2px solid #793b72;
 }
 
-input[type='tel']:focus {
+input[type="tel"]:focus {
   outline: 2px solid #793b72;
 }
 
@@ -71,7 +71,7 @@ input[type='tel']:focus {
 #welcome-body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /* --- Onboarding Page Swiper */
@@ -91,13 +91,13 @@ input[type='tel']:focus {
 
 .swiper-header {
   color: #523754;
-  font-family: 'Lato Black', sans-serif;
+  font-family: "Lato Black", sans-serif;
   font-weight: bold;
 }
 
 .swiper-text {
   color: #4d2f50c1;
-  font-family: 'Lato Black', sans-serif;
+  font-family: "Lato Black", sans-serif;
   font-weight: bold;
   font-size: 2vh;
 }
@@ -182,7 +182,7 @@ input[type='tel']:focus {
   overflow: hidden;
   white-space: nowrap;
   color: #b4b4b4;
-  font-family: 'Lato Semibold';
+  font-family: "Lato Semibold";
 }
 
 .strike > span {
@@ -192,7 +192,7 @@ input[type='tel']:focus {
 
 .strike > span:before,
 .strike > span:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   width: 9999px;
@@ -236,7 +236,7 @@ input[type='tel']:focus {
 
 #register-modal-header-text {
   color: #523754;
-  font-family: 'Lato Black', sans-serif;
+  font-family: "Lato Black", sans-serif;
   font-size: 1.4em;
 }
 
@@ -337,8 +337,13 @@ input[type='tel']:focus {
 /* --- Name Age Page */
 #name-age-body {
   padding-bottom: 7.5em;
+  color: #523754;
 }
-
+@media only screen and (max-height: 667px) {
+  #name-age-body {
+    margin-bottom: 8.5em;
+  }
+}
 #name-age-bottom {
   background: white;
 }
